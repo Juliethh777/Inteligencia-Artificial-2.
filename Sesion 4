@@ -1,0 +1,39 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMnbhv7y816h5YcvMI0qcwn",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Juliethh777/Inteligencia-Artificial-2./blob/main/Sesion%204\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "El aprendizaje automático es una forma de hacer que una computadora aprenda usando información y experiencias anteriores. Para esto se pueden utilizar diferentes estrategias, como analizar grandes cantidades de información mediante la minería de datos, aprender con ejemplos, descubrir patrones sin recibir respuestas o aprender a través de recompensas. Los datos pueden llegar todos juntos, mediante el aprendizaje por lotes, o de manera constante con el aprendizaje en línea. Algunos sistemas toman decisiones comparando situaciones nuevas con ejemplos parecidos, mientras que otros crean un modelo para entender los datos y realizar predicciones. Un punto importante es lograr que el sistema pueda responder bien ante situaciones que nunca ha visto, lo que se conoce como generalización. También hay dificultades: si los datos son incorrectos, el resultado será malo, es decir, “si entra basura, sale basura”; además, el sobreajuste ocurre cuando el sistema memoriza demasiado los datos y sus errores, mientras que el infrajuste aparece cuando no aprende lo suficiente. Para saber si realmente funciona, se utilizan tres etapas: entrenamiento, validación y prueba final. Finalmente, los sistemas no supervisados pueden presentar riesgos porque pueden encontrar patrones o grupos que parezcan importantes, pero que en realidad sean incorrectos o no tengan utilidad."
+      ],
+      "metadata": {
+        "id": "kcwS48NEx87A"
+      }
+    }
+  ]
+}
