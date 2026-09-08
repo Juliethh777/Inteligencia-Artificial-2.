@@ -1,0 +1,134 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNWxEJl+n+TdHAyND9WsPsx",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Juliethh777/Inteligencia-Artificial-2./blob/main/Sesion%205%20-Metodolog%C3%ADa%20CRISP-DM%20y%20Ciencia%20de%20Datos\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "RDV0xLuugdbS"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Metodología CRISP-DM y Ciencia de Datos\n",
+        "\n",
+        "La metodología CRISP-DM, cuyo nombre significa Cross-Industry Standard Process for Data Mining, es una metodología utilizada para organizar y desarrollar proyectos de minería de datos y ciencia de datos. Su objetivo es proporcionar una estructura que permita pasar desde la comprensión de un problema de negocio hasta la creación y puesta en funcionamiento de una solución basada en datos.\n",
+        "\n",
+        "Origen de CRISP-DM\n",
+        "\n",
+        "CRISP-DM surgió durante la década de 1990 como una propuesta para establecer un proceso común para los proyectos de minería de datos. En 1996 comenzó a desarrollarse y posteriormente se convirtió en una de las metodologías más conocidas para trabajar con datos.\n",
+        "\n",
+        "Durante los años siguientes, la metodología fue adoptada por diferentes empresas y profesionales porque permitía organizar los proyectos de una manera clara y flexible. Hacia 2015, CRISP-DM continuaba siendo una referencia importante en proyectos relacionados con minería de datos y ciencia de datos, aunque comenzaron a aparecer nuevas metodologías y herramientas adaptadas a Big Data, Machine Learning y otras tecnologías.\n",
+        "\n",
+        "Origen y casos prácticos\n",
+        "\n",
+        "Una de las principales características de CRISP-DM es que utiliza un ciclo de vida dinámico e interactivo. Esto significa que el proyecto no necesariamente sigue las etapas una sola vez y en línea recta. Si durante una etapa se encuentra un problema, es posible regresar a una etapa anterior y realizar cambios.\n",
+        "\n",
+        "Por ejemplo, si durante la evaluación de un modelo se descubre que los datos utilizados no tienen suficiente calidad, se puede regresar a la etapa de preparación de datos, corregirlos y volver a construir el modelo.\n",
+        "\n",
+        "Esta flexibilidad hace que CRISP-DM pueda utilizarse en diferentes tipos de proyectos, como predicción de ventas, detección de fraudes, análisis de clientes, mantenimiento predictivo, clasificación de información y sistemas de recomendación.\n",
+        "\n",
+        "Negocios y datos\n",
+        "\n",
+        "La primera parte del proceso consiste en comprender el problema de negocio y conocer los datos disponibles.\n",
+        "\n",
+        "Primero se debe determinar qué problema se quiere resolver y cuál es el objetivo del proyecto. Después se procede a recolectar los datos necesarios.\n",
+        "\n",
+        "Una vez obtenidos, los datos deben ser descritos y explorados. En esta etapa se busca conocer qué información contienen, qué variables existen, cuántos registros hay y qué características presentan.\n",
+        "\n",
+        "También es importante analizar la calidad de los datos, ya que pueden existir valores faltantes, errores, datos duplicados o información inconsistente.\n",
+        "\n",
+        "Por ejemplo, una empresa que quiere predecir sus ventas debe conocer qué datos tiene disponibles, como ventas anteriores, fechas, productos, precios, temporadas y características de los clientes.\n",
+        "\n",
+        "Preparación de datos\n",
+        "\n",
+        "La preparación de datos es una de las etapas más importantes de CRISP-DM. En ella se seleccionan los datos que realmente serán utilizados y se realizan diferentes procesos para dejarlos listos para el modelado.\n",
+        "\n",
+        "Durante esta etapa se pueden eliminar datos innecesarios, corregir errores, tratar valores faltantes, eliminar duplicados y transformar variables.\n",
+        "\n",
+        "También puede ser necesario combinar información proveniente de diferentes fuentes. El objetivo es obtener un conjunto de datos limpio, organizado y adecuado para utilizarlo en un modelo.\n",
+        "\n",
+        "Una buena preparación de los datos es fundamental porque la calidad de los resultados dependerá en gran medida de la calidad de los datos utilizados.\n",
+        "\n",
+        "Modelado y evaluación\n",
+        "\n",
+        "Después de preparar los datos comienza la etapa de modelado. En esta fase se seleccionan las técnicas que pueden ayudar a solucionar el problema planteado.\n",
+        "\n",
+        "Primero se elige una técnica adecuada y posteriormente se construye el modelo utilizando los datos preparados. Dependiendo del objetivo, se pueden utilizar técnicas de clasificación, regresión, clustering, predicción, entre otras.\n",
+        "\n",
+        "Después de construir el modelo se realizan pruebas y evaluaciones para comprobar qué tan bien funciona. No basta con crear un modelo; es necesario comprobar si sus resultados son confiables y si realmente ayudan a resolver el problema.\n",
+        "\n",
+        "Si los resultados no son satisfactorios, se pueden realizar modificaciones y regresar a etapas anteriores. Por ejemplo, puede ser necesario preparar nuevamente los datos, seleccionar otras variables o probar una técnica diferente.\n",
+        "\n",
+        "Por esta razón, CRISP-DM es considerado un proceso interactivo.\n",
+        "\n",
+        "Resultados y próximos procesos\n",
+        "\n",
+        "Una vez evaluado el modelo, se deben analizar los resultados obtenidos. Es importante determinar si estos resultados cumplen con los objetivos establecidos al comienzo del proyecto.\n",
+        "\n",
+        "Si el modelo funciona correctamente, se puede continuar con la siguiente etapa: el despliegue. Si los resultados no son suficientes, se puede regresar a etapas anteriores para mejorar el proceso.\n",
+        "\n",
+        "Esto demuestra que un proyecto de ciencia de datos no termina simplemente cuando se obtiene un modelo. Es necesario comprobar que el resultado tenga utilidad en un contexto real.\n",
+        "\n",
+        "Despliegue\n",
+        "\n",
+        "El despliegue consiste en poner los resultados del proyecto en funcionamiento dentro de un entorno real.\n",
+        "\n",
+        "Dependiendo del proyecto, esto puede significar implementar un modelo en una aplicación, utilizarlo para realizar predicciones o integrarlo dentro de los procesos de una empresa.\n",
+        "\n",
+        "Después del despliegue es importante realizar un monitoreo constante. Los datos pueden cambiar con el tiempo y un modelo que funciona bien actualmente podría perder precisión en el futuro.\n",
+        "\n",
+        "También se pueden generar informes para conocer el rendimiento del modelo y realizar revisiones periódicas. Si se detectan problemas, el modelo puede ser actualizado o volver a entrenarse con nuevos datos.\n",
+        "\n",
+        "Por lo tanto, el proceso puede resumirse de la siguiente manera:\n",
+        "\n",
+        "Comprensión del negocio → Comprensión de los datos → Preparación de datos → Modelado → Evaluación → Despliegue.\n",
+        "\n",
+        "¿Cómo evolucionará CRISP-DM con la Inteligencia Artificial moderna?\n",
+        "\n",
+        "Con la evolución de la Inteligencia Artificial, CRISP-DM probablemente continuará adaptándose a nuevas tecnologías y formas de trabajar con datos.\n",
+        "\n",
+        "La IA puede ayudar a automatizar algunas tareas que anteriormente requerían mucho trabajo manual, como la limpieza de datos, la selección de variables, la creación de modelos y el análisis de resultados.\n",
+        "\n",
+        "También será posible utilizar sistemas de IA para ayudar a los científicos de datos a explorar grandes cantidades de información y encontrar patrones de manera más rápida.\n",
+        "\n",
+        "Sin embargo, la participación humana seguirá siendo importante. Será necesario definir correctamente los objetivos, revisar la calidad de los datos, evaluar los resultados y asegurarse de que los modelos sean seguros, responsables y confiables.\n",
+        "\n",
+        "En el futuro, CRISP-DM podría convertirse en un proceso más automatizado, inteligente y continuo, donde los modelos se actualicen con nuevos datos y sean monitoreados constantemente.\n",
+        "\n",
+        "En conclusión, CRISP-DM proporciona una estructura para desarrollar proyectos de ciencia de datos desde la comprensión del problema hasta el despliegue de una solución. Su carácter dinámico permite regresar a etapas anteriores cuando es necesario, y su evolución junto con la Inteligencia Artificial permitirá desarrollar proyectos cada vez más rápidos, automatizados y eficientes."
+      ],
+      "metadata": {
+        "id": "sD5htuN4geXo"
+      }
+    }
+  ]
+}
