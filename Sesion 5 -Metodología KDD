@@ -1,0 +1,106 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyN9c5tgbSPrG4gfEZqEUDLE",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Juliethh777/Inteligencia-Artificial-2./blob/main/Sesion%205%20-Metodolog%C3%ADa%20KDD\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "tq4E2TaRfhBv"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Metodología KDD\n",
+        "\n",
+        "La metodología KDD, cuyo significado es Knowledge Discovery in Databases o Descubrimiento de Conocimiento en Bases de Datos, es un proceso que permite obtener conocimiento útil a partir de grandes cantidades de datos. Su objetivo principal es transformar los datos que se encuentran almacenados en información que pueda ser analizada, interpretada y utilizada para tomar decisiones.\n",
+        "\n",
+        "Origen y conceptos\n",
+        "\n",
+        "El concepto de KDD surgió debido al crecimiento de las bases de datos y a la necesidad de encontrar información útil dentro de grandes cantidades de datos. En 1989 comenzó a utilizarse el término KDD para describir el proceso de descubrimiento de conocimiento a partir de bases de datos.\n",
+        "\n",
+        "En 1996, el concepto fue formalizado con mayor claridad por Fayyad, Piatetsky-Shapiro y Smyth. En este momento se estableció una diferencia importante entre KDD y minería de datos. El KDD representa todo el proceso de descubrimiento de conocimiento, mientras que la minería de datos es una de las etapas encargadas de encontrar patrones y relaciones dentro de los datos.\n",
+        "\n",
+        "Con el paso del tiempo, especialmente hacia 2016, el KDD comenzó a relacionarse cada vez más con tecnologías como Big Data, Machine Learning e Inteligencia Artificial. Esto permitió trabajar con cantidades mucho mayores de información y con datos provenientes de diferentes fuentes, como redes sociales, dispositivos móviles, sensores y sistemas empresariales.\n",
+        "\n",
+        "Valor de los datos y datos crudos\n",
+        "\n",
+        "Los datos crudos son aquellos que se encuentran en su estado original, antes de ser organizados, limpiados o transformados. Por ejemplo, una empresa puede tener registros de clientes, fechas de compra, precios, productos, edades y lugares de residencia.\n",
+        "\n",
+        "Sin embargo, los datos por sí solos no siempre representan conocimiento. Pueden contener errores, información repetida, valores faltantes o datos que no son relevantes para el problema que se quiere analizar. Por esta razón, el proceso KDD busca transformar los datos crudos en información y posteriormente en conocimiento.\n",
+        "\n",
+        "Una forma sencilla de entender este proceso es:\n",
+        "\n",
+        "Datos → Información → Patrones → Conocimiento → Decisiones.\n",
+        "\n",
+        "Por ejemplo, un supermercado puede tener miles de registros de compras. Después de analizar estos datos puede descubrir que muchas personas que compran pan también compran huevos. Este patrón puede convertirse en conocimiento para el supermercado y utilizarse para crear promociones, recomendar productos o mejorar la organización de los artículos.\n",
+        "\n",
+        "Minería de datos y KDD\n",
+        "\n",
+        "La minería de datos y el KDD están relacionados, pero no significan exactamente lo mismo. La minería de datos es una etapa dentro del proceso KDD. Su función es utilizar diferentes técnicas y algoritmos para encontrar patrones, relaciones o comportamientos interesantes dentro de los datos.\n",
+        "\n",
+        "Entre las principales técnicas de minería de datos se encuentran la clasificación, la regresión, el clustering o agrupamiento, las reglas de asociación, la predicción y la detección de anomalías.\n",
+        "\n",
+        "Por lo tanto, podemos decir que el KDD es el proceso completo, mientras que la minería de datos es una parte fundamental de ese proceso.\n",
+        "\n",
+        "Proceso KDD\n",
+        "\n",
+        "El proceso KDD está compuesto por diferentes etapas. Primero se realiza la selección de los datos, donde se identifican aquellos que son relevantes para el problema que se desea solucionar. Después se realiza el preprocesamiento o limpieza, en el cual se corrigen errores, se eliminan datos duplicados y se tratan los valores faltantes.\n",
+        "\n",
+        "Posteriormente se realiza la transformación de los datos, donde la información se prepara y se convierte a un formato adecuado para poder analizarla. Después se aplica la minería de datos, utilizando diferentes algoritmos para descubrir patrones y relaciones.\n",
+        "\n",
+        "Una vez encontrados los patrones, se realiza una etapa de evaluación e interpretación. En esta etapa se determina si los resultados encontrados son realmente útiles y relevantes. Finalmente, los patrones que tienen valor se convierten en conocimiento que puede ser utilizado para tomar decisiones.\n",
+        "\n",
+        "De manera resumida, el proceso puede representarse así:\n",
+        "\n",
+        "Selección → Limpieza → Transformación → Minería de datos → Evaluación → Conocimiento.\n",
+        "\n",
+        "Aplicaciones reales\n",
+        "\n",
+        "Actualmente, la metodología KDD tiene muchas aplicaciones en diferentes áreas. En los bancos se utiliza para detectar fraudes, analizar riesgos y conocer el comportamiento de los clientes. En el comercio se utiliza para recomendar productos, analizar hábitos de compra y realizar predicciones de ventas.\n",
+        "\n",
+        "En el área de la salud puede utilizarse para analizar historiales médicos, identificar factores de riesgo y apoyar procesos de diagnóstico. En las redes sociales permite analizar tendencias, intereses y comportamientos de los usuarios.\n",
+        "\n",
+        "También se utiliza en la industria para realizar mantenimiento predictivo, detectar fallos y mejorar los procesos de producción. En el transporte puede utilizarse para analizar el tráfico, optimizar rutas y estudiar accidentes.\n",
+        "\n",
+        "Futuro del conocimiento\n",
+        "\n",
+        "El futuro del KDD está muy relacionado con la Inteligencia Artificial, el Big Data y el Machine Learning. Cada vez existen mayores cantidades de información y se necesitan sistemas capaces de analizarla rápidamente para encontrar conocimiento útil.\n",
+        "\n",
+        "También tendrán mucha importancia el análisis de datos en tiempo real, el Internet de las Cosas, la privacidad y la seguridad de la información. Además, será necesario que los sistemas sean capaces de explicar cómo llegaron a determinadas conclusiones y que el uso de los datos se realice de manera ética y responsable.\n",
+        "\n",
+        "En conclusión, la metodología KDD permite transformar grandes cantidades de datos crudos en conocimiento útil. Desde sus primeros desarrollos a finales de los años 80, pasando por su formalización en 1996, hasta su relación actual con la Inteligencia Artificial y el Big Data, el KDD se ha convertido en una herramienta importante para analizar información, descubrir patrones y apoyar la toma de decisiones."
+      ],
+      "metadata": {
+        "id": "S_5O-fG8fhpI"
+      }
+    }
+  ]
+}
