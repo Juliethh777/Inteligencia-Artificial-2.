@@ -1,0 +1,88 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyN1nI22FrEEb/LwtxxecXs6",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Juliethh777/Inteligencia-Artificial-2./blob/main/Sesion%2006%20-10%20Algoritmos%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "juruDuXPgo_j"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        " Algoritmos de Inteligencia Artificial\n",
+        "\n",
+        " 1. AdaBoost\n",
+        "\n",
+        "Algoritmo que combina varios clasificadores simples, dando mayor importancia a los datos que fueron clasificados incorrectamente para mejorar la precisión del modelo.\n",
+        "\n",
+        " 2. Árbol de Decisión\n",
+        "\n",
+        "Técnica que representa la toma de decisiones mediante nodos y ramas. Cada nodo plantea una condición y las ramas representan posibles respuestas, facilitando la clasificación y predicción.\n",
+        "\n",
+        " 3. Expectativa-Maximización (EM)\n",
+        "\n",
+        "Método utilizado para trabajar con datos incompletos o desconocidos. Alterna entre estimar los datos faltantes y ajustar los parámetros del modelo hasta encontrar una solución adecuada.\n",
+        "\n",
+        " 4. Algoritmo Genético\n",
+        "\n",
+        "Técnica de optimización inspirada en la evolución. Genera soluciones, selecciona las mejores y las combina mediante reproducción y mutación para obtener resultados más eficientes.\n",
+        "\n",
+        " 5. Naive Bayes\n",
+        "\n",
+        "Algoritmo probabilístico basado en el teorema de Bayes que clasifica datos según la probabilidad de pertenecer a una categoría. Asume independencia entre las características.\n",
+        "\n",
+        " 6. Random Forest\n",
+        "\n",
+        "Combina varios árboles de decisión para obtener predicciones más precisas y estables, reduciendo los errores mediante la combinación de sus resultados.\n",
+        "\n",
+        "## 7. Q-Learning\n",
+        "\n",
+        "Algoritmo de aprendizaje por refuerzo que permite a un agente aprender las mejores acciones mediante recompensas y penalizaciones.\n",
+        "\n",
+        " 8. Aprendizaje por Refuerzo\n",
+        "\n",
+        "Técnica en la que un agente aprende interactuando con un entorno. Las recompensas y penalizaciones le permiten mejorar sus decisiones con la experiencia.\n",
+        "\n",
+        " 9. Red RBF\n",
+        "\n",
+        "Tipo de red neuronal que utiliza funciones de base radial para reconocer patrones y aproximar funciones complejas, siendo útil en clasificación y predicción.\n",
+        "\n",
+        "10. Mixture of Experts\n",
+        "\n",
+        "Arquitectura que combina varios modelos especializados. Un modelo adicional selecciona qué experto debe intervenir según cada situación, mejorando la eficiencia y precisión.\n"
+      ],
+      "metadata": {
+        "id": "MI8WUAWOgqrV"
+      }
+    }
+  ]
+}
