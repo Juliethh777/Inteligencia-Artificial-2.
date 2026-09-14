@@ -1,0 +1,62 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMDV4qC6hWvCfvc4DVBZTLi",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Juliethh777/Inteligencia-Artificial-2./blob/main/Sesion%2009\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "IN2quHnvJbea"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "2. Clasificador binario\n",
+        "pasos del modelo Objetivo seleccion entrenamiento.\n",
+        "trama de la exatitud\n",
+        "\n",
+        "3. Matriz de confusion\n",
+        "Real / predicho  Negativo  Positivo\n",
+        "Visualizacion grafica de los cuatro cuadrantes de la matriz\n",
+        "\n",
+        "4. Presicion y exastividad ROC\n",
+        "Curva ROC graficando la tasa de verdaderos psoitivos vs falsos positivos\n",
+        "\n",
+        "5. Clasificacion multiclase.\n",
+        "Matriz de confusion normalizada para clasificacion multiclase.\n",
+        "\n",
+        "        ¿PRIORIZARIAS PRECISION O EXHAUSTIVIDAD EN TU MODELO?"
+      ],
+      "metadata": {
+        "id": "LHdvSh8AJ6Om"
+      }
+    }
+  ]
+}
