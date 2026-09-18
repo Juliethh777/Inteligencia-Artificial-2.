@@ -1,0 +1,125 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyO0jZ3qsOh2V1uqxZv+WJ+y",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Juliethh777/Inteligencia-Artificial-2./blob/main/Sesion%2014%20-%20Aprendizaje%20por%20Conjuntos\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# APRENDIZAJE POR CONJUNTOS\n",
+        "\n",
+        "## 1. Introducción a conjuntos\n",
+        "\n",
+        "El aprendizaje por conjuntos es una técnica de Machine Learning que consiste en combinar varios modelos de aprendizaje para obtener una predicción más precisa y confiable que la que podría conseguir un solo modelo.\n",
+        "\n",
+        "La idea principal es que varios modelos trabajen juntos para resolver un mismo problema, aprovechando sus diferentes resultados.\n",
+        "\n",
+        "## 2. Clasificadores de votación\n",
+        "\n",
+        "Los clasificadores de votación combinan las predicciones de varios modelos y seleccionan una respuesta final según los resultados obtenidos.\n",
+        "\n",
+        "### Simple Majority Vote (Votación por mayoría simple)\n",
+        "\n",
+        "Consiste en elegir la respuesta que recibe la mayor cantidad de votos de los diferentes modelos.\n",
+        "\n",
+        "Ejemplo: si cinco modelos deben clasificar un correo y cuatro dicen que es spam, mientras uno dice que no lo es, la respuesta final será spam.\n",
+        "\n",
+        "### Weighted Confidence Levels (Niveles de confianza ponderados)\n",
+        "\n",
+        "Consiste en darle mayor importancia a los modelos que tienen un nivel de confianza más alto en sus predicciones.\n",
+        "\n",
+        "En lugar de contar todos los votos por igual, se consideran los valores de confianza de cada modelo para obtener una respuesta final.\n",
+        "\n",
+        "## 3. Mecánica del muestreo\n",
+        "\n",
+        "La mecánica del muestreo consiste en seleccionar diferentes conjuntos de datos para entrenar varios modelos. Esto permite que cada modelo aprenda a partir de distintas muestras y pueda aportar resultados diferentes.\n",
+        "\n",
+        "### Bagging (Bootstrap Aggregating)\n",
+        "\n",
+        "Consiste en entrenar varios modelos utilizando subconjuntos de datos seleccionados aleatoriamente, normalmente con reemplazo.\n",
+        "\n",
+        "Cada modelo aprende de una muestra diferente y después se combinan sus predicciones. Esta técnica ayuda a reducir la variabilidad de los resultados.\n",
+        "\n",
+        "### Pasting\n",
+        "\n",
+        "Es una técnica similar al Bagging, pero los subconjuntos de datos se seleccionan sin reemplazo. Esto significa que una misma instancia no se repite dentro de la muestra seleccionada.\n",
+        "\n",
+        "### Entrenamiento paralelo en subconjuntos aleatorios\n",
+        "\n",
+        "En Bagging y Pasting, los diferentes modelos pueden entrenarse de manera independiente y en paralelo, cada uno utilizando su propio subconjunto de datos.\n",
+        "\n",
+        "Esto permite aprovechar diferentes partes de la información para realizar una predicción conjunta.\n",
+        "\n",
+        "### Instancias fuera de bolsa (Out-of-Bag, OOB)\n",
+        "\n",
+        "Son los datos que no fueron seleccionados para entrenar un modelo específico durante el muestreo.\n",
+        "\n",
+        "Estas instancias pueden utilizarse para evaluar el rendimiento del modelo sin necesidad de separar otro conjunto de datos exclusivamente para la validación.\n",
+        "\n",
+        "## 4. Aleatoriedad en las características\n",
+        "\n",
+        "Consiste en seleccionar aleatoriamente algunas características o variables del conjunto de datos para entrenar los modelos.\n",
+        "\n",
+        "Esto permite que los modelos aprendan desde diferentes perspectivas, evitando que todos dependan exactamente de las mismas variables.\n",
+        "\n",
+        "La aleatoriedad en las características es una idea importante en los Bosques Aleatorios (Random Forests), donde se utilizan diferentes subconjuntos de características para construir los árboles de decisión.\n",
+        "\n",
+        "## 5. Bosques aleatorios (Random Forests)\n",
+        "\n",
+        "Los bosques aleatorios son un método de aprendizaje por conjuntos que combina varios árboles de decisión.\n",
+        "\n",
+        "Cada árbol se entrena utilizando una muestra aleatoria de los datos y, durante su construcción, considera subconjuntos aleatorios de características.\n",
+        "\n",
+        "Finalmente, se combinan las predicciones de los árboles mediante votación o promedio, dependiendo del problema.\n",
+        "\n",
+        "Su objetivo es obtener resultados más estables y reducir el sobreajuste que puede presentar un árbol individual.\n",
+        "\n",
+        "## 6. Algoritmos de Boosting\n",
+        "\n",
+        "El Boosting es una técnica de aprendizaje por conjuntos que entrena modelos de manera secuencial, buscando que cada nuevo modelo mejore los resultados de los anteriores.\n",
+        "\n",
+        "Los modelos se combinan para construir una predicción final más precisa.\n",
+        "\n",
+        "A diferencia del Bagging, que permite entrenar modelos de forma independiente, el Boosting utiliza los resultados de los modelos anteriores para orientar el entrenamiento de los siguientes.\n",
+        "\n",
+        "## 7. Stacking\n",
+        "\n",
+        "El Stacking es una técnica que combina diferentes modelos de Machine Learning mediante un modelo adicional llamado meta-modelo.\n",
+        "\n",
+        "Primero, varios modelos realizan sus predicciones. Después, esas predicciones se utilizan como entrada para el meta-modelo, que aprende cómo combinarlas para producir un resultado final.\n",
+        "\n",
+        "Esta técnica permite aprovechar las fortalezas de diferentes tipos de modelos.\n",
+        "\n",
+        "\n",
+        "### ¿Cómo varios modelos de aprendizaje pueden crear uno mejor?\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "AA4bJooadZBN"
+      }
+    }
+  ]
+}
