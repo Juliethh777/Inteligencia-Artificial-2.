@@ -1,0 +1,78 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMsnuAErhSelPHk6smRhI8S",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Juliethh777/Inteligencia-Artificial-2./blob/main/Vison%20Por%20Computadora%20Sesion-17\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Visión Por Computadora.\n",
+        "Red Neuronal.\n",
+        "\n",
+        "1. Inspiración Biologia.\n",
+        "* La Corteza Visual.\n",
+        "Neuronas no procesan la imagen de un solo golpe.\n",
+        "Campo respectivo local.\n",
+        "\n",
+        "\n",
+        "2. Capas Y Filtros.\n",
+        "•Convolucionales.\n",
+        "Paso a paso\n",
+        "Definieron Filtro\n",
+        "Aplicar Zancada\n",
+        "Añadir Relleno\n",
+        "Zancada y relleno de ceros reduciendo la dimensionalidad.\n",
+        "Múltiples filtros crean mapas de características en 3D.\n",
+        "\n",
+        "3. Agrupación (Pooling).\n",
+        "•Reduccion de datos.\n",
+        "Max Pooling reduce la imagen conservando detalles clave.\n",
+        "\n",
+        "4. Arquitecturas Famosas.\n",
+        "* Evolución de modelos\n",
+        "Panorama.\n",
+        "1998 - 2012 - 2014 - 2015\n",
+        "Ingeniería moderna.\n",
+        "Resultados de alta gama\n",
+        "\n",
+        "5. Modelos Preentrenados.\n",
+        "•Clasificacion Eficiente.\n",
+        "\n",
+        "6. Detección De Objetos.\n",
+        "* Y segmentación de objetos\n",
+        "Clasificación\n",
+        "Yolo\n",
+        "Mask R-CNN\n",
+        "Red convolucional procesándolo imágenes de distintos tamaños\n",
+        "\n",
+        "¿Que problema imposible resolvería mañana?"
+      ],
+      "metadata": {
+        "id": "81hzqxxhViJl"
+      }
+    }
+  ]
+}
