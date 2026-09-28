@@ -1,0 +1,77 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNB794E8RS+KMpmn1OcWBpY",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Juliethh777/Inteligencia-Artificial-2./blob/main/TensorFlow%20a%20Medida%20Sesion-17\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "TENSORFLOW A MEDIDA\n",
+        "\n",
+        "1. BLOQUES FUNDAMENTALES\n",
+        "   • Materias primas de la inteligencia artificial.\n",
+        "\n",
+        "2. PERSONALIZACIÓN AVANZADA\n",
+        "   • Creando modelos personalizados.\n",
+        "   • Componentes.\n",
+        "   • Clase base.\n",
+        "   • Método a sobrescribir.\n",
+        "\n",
+        "3. CÁLCULO DE GRADIENTES\n",
+        "   • El sistema de navegación.\n",
+        "   • Autodiferenciación en modo inverso.\n",
+        "   • Paso hacia adelante (Forward Pass).\n",
+        "   • Paso hacia atrás (Backward Pass).\n",
+        "   • El motor que guía la automatización.\n",
+        "   • Cálculo de gradientes en reversa.\n",
+        "   • tf.GradientTape.\n",
+        "\n",
+        "4. BUCLES DE ENTRENAMIENTO\n",
+        "   • Control manual.\n",
+        "   • Pasos metódicos:\n",
+        "      - Muestrear.\n",
+        "      - Paso hacia adelante.\n",
+        "      - Calcular gradientes.\n",
+        "      - Optimizar.\n",
+        "\n",
+        "5. FUNCIONES Y GRAFOS\n",
+        "   • Sobrealimentando el motor.\n",
+        "   • Grafo de computación.\n",
+        "   • Generación automática de grafos mediante AutoGraph.\n",
+        "\n",
+        "RESTRICCIONES\n",
+        "   • No usar bibliotecas externas.\n",
+        "   • Los objetos y componentes solo pueden crearse durante la primera ejecución.\n",
+        "\n",
+        "CONCLUSIÓN\n",
+        "El 95 % de los casos no requerirá más que Keras."
+      ],
+      "metadata": {
+        "id": "jUgXiPAbU5c-"
+      }
+    }
+  ]
+}
